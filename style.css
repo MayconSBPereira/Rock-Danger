@@ -9,7 +9,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
-
 }
 
 /* BARRA INICIAL */
@@ -108,9 +107,16 @@ body{
         height: 250px;
         width: 443px;
         top: 0%;
-        position:fixed;
+    }
+    .btn{
+        position:sticky;
     }
     #titulo{
         font-size: 25px;
+        color: black;
+    }
+    #titulo a{
+        text-decoration: none;
+        box-shadow: none;
     }
 }
