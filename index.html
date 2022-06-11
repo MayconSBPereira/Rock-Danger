@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./imgs/guitarra-icon.png">
+    <title>Rock Danger</title>   
+</head>
+<body>
+    <div id="menu_inicial">
+        <ul>
+            <li><a href="https://www.instagram.com/__batistam/"><img src="./imgs/instagram-logo.png" width="30px"></a></li>
+            <li><a href="https://www.facebook.com/maycon.soaresbatista.1/"><img src="./imgs/facebook-logo.png" width="30px"></a></li>
+        </ul>
+    </div>
+    <div id="titulo">
+        <a href="https://www.youtube.com/watch?v=7WR3MgDnVFM"><h3>⚡⭐🎸 Rock Danger 🎸⭐⚡</h3></a>
+    </div>
+    <div id="container_video">
+        <video id="mrd" width="900px" src="./video/6. Rock Danger feat- Young Ganni, Major RD e Xamã - SÓ ROCK 2 (prod. El Lif Beatz e Kib7).mp4"></video>
+        <div id="controle" onmouseover="showControles(this)" onmouseout="hiddenControles(this)">
+            <img class= "btn" onclick="retroceder()" src="./imgs/voltar-icon.png">
+            <img class= "btn" onclick="avançar()" src="./imgs/avançar-icon.png">
+            <img class= "btn" onclick="play()" src="./imgs/play-icon.png">
+            <img class= "btn" onclick="pause()" src="./imgs/pause-icon.png">
+        </div>
+    </div>
+    <footer id="rodape"><b>Desenvolvido por Maycon S B Pereira. Está página foi desenvolvida para fins de estudos.</b></footer>
+
+    <script src="./scrypt.js"></script>
+</body>
+</html>
